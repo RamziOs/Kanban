@@ -1,0 +1,48 @@
+.userList {
+  flex: 4;
+}
+
+.userListUser {
+  display: flex;
+  align-items: center;
+}
+
+.userListImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.userListEdit{
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: #3bb077;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.widgetSmButton{
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+  padding: 7px 10px;
+  background-color: #eeeef7;
+  color: #555;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.widgetSmIcon{
+  font-size: 16px !important;
+  margin-right: 5px;
+}
+
+.userListDelete{
+  color: red;
+  cursor: pointer;
+}
